@@ -22,15 +22,14 @@ const ParticleSource = ({ position = [0.5, 0.5, 0] }) => {
             },
             particleDelay: {
                 value: 1,
-                step: 1,
-                label: "Delay",
-                suffix: 'sec'
+                min: 0.1,
+                label: "Delay (sec)"
             },
             particleTrailTime: {
                 value: 3,
                 step: 1,
-                label: "Trail visible",
-                suffix: 'sec'
+                min: 1,
+                label: "Trail visible (sec)"
             },
             distance: {
                 value: 8,

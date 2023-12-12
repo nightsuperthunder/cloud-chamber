@@ -22,6 +22,7 @@ function App() {
 
                 <Table />
 
+                <gridHelper args={[20, 20]}/>
                 {/*<axesHelper args={[10]} />*/}
                 <CameraControls truckSpeed={1} dollySpeed={1} minPolarAngle={0} maxPolarAngle={Math.PI / 2} maxDistance={40} minDistance={7} />
             </Canvas >
