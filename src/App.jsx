@@ -11,6 +11,7 @@ function App() {
         <>
             <Canvas shadows camera={{ position: [0, 8, 15], fov: 90, near: 0.001, far: 100 }}>
                 <color attach='background' args={['#323232']} />
+                <color attach='background' args={['#6a8894']} />
                 <fog attach="fog" args={["#323232", 35, 55]} />
 
                 <Physics gravity={[0, 0, 0]} stepSize={1 / 60}>
